@@ -24,19 +24,18 @@ IPFS was not used in this project
 ### Installation
 
 - Install all requisite npm packages (as listed in ```package.json```):
-     '''
-     npm install
-     '''
+                  npm install
+    
 - Launch Ganache:
-  npm run ganache
+                  npm run ganache
 - In a separate terminal window, Compile smart contracts:
-  truffle compile
+                  truffle compile
 - Migrate smart contracts to the locally running blockchain, ganache-cli:
-  truffle migrate 
+                  truffle migrate --reset
 - Test smart contracts:
-  truffle test
+                   truffle test
 - In a separate terminal window, launch the DApp:
-  npm run dev
+                   npm run dev
 
 Deployed Contracts: 
 - Transaction ID: 0xbd46cbc5a2b03ee48d5e232e20d1d3c2f47e1d62eeeb17b49035e9aab18546df 
@@ -56,4 +55,5 @@ to make the web faster, safer, and more open.
 * Solidity
 * Ganache-cli
 * Truffle
-* IPFS
+* IPFShttps://github.com/
+* [Github Blockchain Community](https://github.com/)
