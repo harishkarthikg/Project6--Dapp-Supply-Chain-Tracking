@@ -1,4 +1,4 @@
-Supply Chain Dapp
+###Supply Chain Dapp
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
@@ -15,28 +15,28 @@ Following versions were used in this project:
 - Solidity  >=0.4.24 (solc-js)
 - Node v12.13
 - truffle-hdwallet-provider 1.0.5
-- truffle-assertions ^0.9.2
 
-###
+
+###IPFS
 IPFS was not used in this project
 
 
 ### Installation
 
 - Install all requisite npm packages (as listed in ```package.json```):
-  npm install
+  ## npm install
 - Launch Ganache:
-  npm run ganache
+  ## npm run ganache
 - In a separate terminal window, Compile smart contracts:
-  truffle compile
+  ## truffle compile
 - Migrate smart contracts to the locally running blockchain, ganache-cli:
-  truffle migrate 
+  ## truffle migrate 
 - Test smart contracts:
-  truffle test
+  ## truffle test
 - In a separate terminal window, launch the DApp:
-  npm run dev
+  ## npm run dev
 
-Deployed Contracts: 
+### Deployed Contracts: 
 - Transaction ID: 0xbd46cbc5a2b03ee48d5e232e20d1d3c2f47e1d62eeeb17b49035e9aab18546df 
 - Contract ID: 0xd179315Bf65BCCe38D1ed99Aa765bE9eDB5C00be
 - ethescan: https://rinkeby.etherscan.io/tx/0xbd46cbc5a2b03ee48d5e232e20d1d3c2f47e1d62eeeb17b49035e9aab18546df
@@ -51,7 +51,8 @@ to make the web faster, safer, and more open.
 
 ## Acknowledgments
 
-* Solidity
-* Ganache-cli
-* Truffle
-* IPFS
+* [Solidity](https://docs.soliditylang.org/en/v0.7.4/)
+* [Ganache-cli](https://www.trufflesuite.com/docs/ganache/quickstart)
+* [Truffle](https://www.trufflesuite.com/trufflecon2020)
+* [IPFS](https://docs.ipfs.io/reference/cli/)
+* [Github Blockchain community](github.com)
