@@ -1,4 +1,4 @@
-###Supply Chain Dapp
+### Supply Chain Dapp
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
@@ -17,24 +17,24 @@ Following versions were used in this project:
 - truffle-hdwallet-provider 1.0.5
 
 
-###IPFS
+### IPFS
 IPFS was not used in this project
 
 
 ### Installation
 
 - Install all requisite npm packages (as listed in ```package.json```):
-  ## npm install
+  #### npm install
 - Launch Ganache:
-  ## npm run ganache
+  #### npm run ganache
 - In a separate terminal window, Compile smart contracts:
-  ## truffle compile
+  #### truffle compile
 - Migrate smart contracts to the locally running blockchain, ganache-cli:
-  ## truffle migrate 
+  #### truffle migrate 
 - Test smart contracts:
-  ## truffle test
+  #### truffle test
 - In a separate terminal window, launch the DApp:
-  ## npm run dev
+  #### npm run dev
 
 ### Deployed Contracts: 
 - Transaction ID: 0xbd46cbc5a2b03ee48d5e232e20d1d3c2f47e1d62eeeb17b49035e9aab18546df 
