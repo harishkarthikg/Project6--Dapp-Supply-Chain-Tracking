@@ -24,7 +24,9 @@ IPFS was not used in this project
 ### Installation
 
 - Install all requisite npm packages (as listed in ```package.json```):
-  npm install
+     '''
+     npm install
+     '''
 - Launch Ganache:
   npm run ganache
 - In a separate terminal window, Compile smart contracts:
